@@ -1,0 +1,218 @@
+*{
+  padding: 0;
+  margin: 0;
+  transition: 0.5s ease;
+}
+
+body{
+  background: url(../img/background.jpg) no-repeat top center fixed;
+	background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+#topLine{
+  width: 100%;
+  border-bottom: 1px dotted white;
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 3rem;
+  overflow: hidden;
+}
+
+.wrapper{
+  width: 98%;
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 5rem;
+}
+
+.wrapper-shadow{
+  box-shadow: 0 0 30px black;
+}
+
+#contactInfo{
+  line-height: 3rem;
+  width: 45%;
+  float: left;
+}
+
+nav{
+  line-height: 3rem;
+  width: 50%;
+  float: right;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+nav ul li a:hover{
+  background-color: rgba(238, 240, 230, 0.6);
+  color: navy;
+}
+
+nav ul li a.active{
+  background-color: navy;
+}
+
+nav ul li a.active:hover{
+  color: white;
+}
+
+nav ul li a.disabled{
+  color: grey;
+}
+
+nav ul li a.disabled:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#titleBannerHome{
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 30vh 0;
+}
+
+#titleBannerHome h1{
+  font-size: 5rem;
+}
+
+#titleBannerHome h1 small{
+  font-size: 2rem;
+}
+
+#titleBannerHome h3{
+  font-size: 2rem;
+}
+
+#titleBanner{
+  background-color: navy;
+  line-height: 7.5rem;
+}
+
+#titleBanner h1{
+  font-size: 3rem;
+}
+
+#titleBanner h1 small{
+  font-size: 1.5rem;
+}
+
+#titleBanner h3{
+  display: none;
+}
+
+#master{
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.title{
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.aboutMe .img{
+  padding: 10px 20px ;
+  float: left;
+}
+
+.aboutMe img{
+  border-radius: 50%;
+  max-height: 15rem;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+}
+
+.aboutMe p{
+  text-indent: 1rem;
+  margin: 1rem 0 0 0;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.aboutMe p.hello{
+  text-indent: 0;
+  margin: 0;
+}
+
+.aboutMe p:last-child{
+  margin-bottom: 1rem;
+}
+
+.technologies{
+  background-color: navy;
+  color: white;
+  text-align: center;
+  box-shadow: inset 0 0 30px black;
+  background: radial-gradient(lightblue, navy);
+  padding: 2rem 0;
+}
+
+.techImages{
+  margin-bottom: 2rem;
+}
+
+.techImages img{
+  display: inline-block;
+  max-height: 8rem;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  transition: 2s ease;
+}
+
+.techImages img:hover{
+  transform: rotateY(180deg);
+  transition: 2s ease;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+footer .social{
+  font-size: 5rem;
+  line-height: 10rem;
+}
+
+footer .social a{
+  display: inine-block;
+  color: white;
+  opacity: 0.6;
+}
+
+footer .social a:hover{
+  opacity: 1;
+}
+
+#copywrite{
+  line-height: 3rem;
+  border-top: 1px dotted white;
+  font-style: italic;
+}
+
+#copywrite a{
+  color: white;
+  opacity: 0.6;
+  font-size: 1.2rem;
+}
+
+#copywrite a:hover{
+  opacity: 1;
+}
