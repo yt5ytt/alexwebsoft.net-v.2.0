@@ -11,7 +11,7 @@
       </h1>
     </div><!-- title -->
 
-    <p class="hello">These are some project that I've worked</p>
+    <p class="hello">These are some project that I've worked earlier</p>
 
   </div><!-- .wrapper -->
 
