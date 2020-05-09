@@ -24,11 +24,10 @@ body{
   max-width: 960px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 5rem;
 }
 
 .wrapper-shadow{
-  box-shadow: 0 0 30px black;
+  box-shadow: 0 0 30px grey;
 }
 
 #contactInfo{
@@ -125,6 +124,7 @@ nav ul li a.disabled:hover{
 
 .title{
   padding: 2rem 0;
+  margin: 0 2rem;
   font-size: 1.5rem;
   display: block;
 }
@@ -136,20 +136,20 @@ nav ul li a.disabled:hover{
 
 .aboutMe img{
   border-radius: 50%;
-  max-height: 15rem;
+  max-height: 10rem;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
 }
 
 .aboutMe p{
   text-indent: 1rem;
-  margin: 1rem 0 0 0;
+  margin: 1rem 2rem;
   text-align: justify;
   font-size: 1.2rem;
 }
 
 .aboutMe p.hello{
   text-indent: 0;
-  margin: 0;
+  margin: 0 2rem;
 }
 
 .aboutMe p:last-child{
