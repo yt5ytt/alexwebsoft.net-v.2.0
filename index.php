@@ -14,7 +14,7 @@
     */
  ?>
 
-    <div id="topLine">
+    <div <?php if($pageID == 1){echo 'id="topLineHome"';}else{echo 'id="topLine"';} ?>>
       <div class="wrapper">
         <div id="contactInfo">
           <i class="fas fa-mobile-alt"></i> &nbsp; 381.60.599.1001 &nbsp; &nbsp; &nbsp;
@@ -59,7 +59,7 @@
     </div><!-- #master -->
 
 <?php
-  
+
   /*
     Includes footer of the site
   */

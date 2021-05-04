@@ -11,7 +11,17 @@ body{
   color: white;
 }
 
+#topLineHome{
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px dotted white;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  line-height: 3rem;
+  overflow: hidden;
+}
+
 #topLine{
+  position: relative;
   width: 100%;
   border-bottom: 1px dotted white;
   background-color: rgba(0, 0, 0, 0.6);
@@ -84,7 +94,10 @@ nav ul li a.disabled:hover{
 #titleBannerHome{
   background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  padding: 30vh 0;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 #titleBannerHome h1{
